@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "610264927009",
+    "firebase_url": "https://project-a4641.firebaseio.com",
+    "project_id": "project-a4641",
+    "storage_bucket": "project-a4641.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610264927009:android:c3b7c8838dace8f05c4c60",
+        "android_client_info": {
+          "package_name": "e.hkamatgi.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610264927009-hbunqom3nerqad3cip0nmq0s3hlb4sn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTa2Jhf0-CdXZ2KpJG5Zn09mUSyuNZKY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610264927009-hbunqom3nerqad3cip0nmq0s3hlb4sn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

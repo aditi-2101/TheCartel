@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="120sp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="350sp"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="120sp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pwdreg"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="120sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="120sp"
+        android:text="Already a member? CLick here to log in" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="120sp"
+        android:textAlignment="center"
+        android:text="REGISTER FOR NEW USERS" />
+
+
+</RelativeLayout>

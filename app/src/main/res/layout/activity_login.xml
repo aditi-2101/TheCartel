@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_login">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="120sp"
+        android:text="LOG IN" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="350sp"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="120sp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="120sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="120sp"
+        android:textAlignment="center"
+        android:text="LOG IN PAGE" />
+
+    <TextView
+        android:id="@+id/clktoreg"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="120sp"
+        android:text="Not a member? Click here to register" />
+
+    <TextView
+        android:id="@+id/forgotpwd"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="120sp"
+        android:text="Forgot password? click here to reset" />
+
+</RelativeLayout>
