@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splashscreen">
+    tools:context=".splashscreen"
+    android:background="@drawable/star1bg">
 
     <TextView
         android:id="@+id/splash"
@@ -13,7 +14,10 @@
         android:layout_marginBottom="300sp"
         android:layout_marginTop="300sp"
         android:layout_marginLeft="120sp"
-        android:text="WELCOME TO THE CARTEL"
+        android:text="@string/header_name"
+        android:textSize="30sp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="@color/yellow"
         android:textAlignment="center"
-        android:textSize="24sp" />
+      />
 </RelativeLayout>

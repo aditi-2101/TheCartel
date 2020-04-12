@@ -2,17 +2,32 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/star1bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activity_login">
+
+
+    <TextView
+        android:id="@+id/splash"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="120sp"
+        android:text="@string/header_name"
+        android:textSize="30sp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"></TextView>
 
     <Button
         android:id="@+id/login"
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="250sp"
+        android:layout_marginTop="280sp"
         android:layout_marginLeft="120sp"
         android:text="LOG IN" />
 
@@ -21,8 +36,9 @@
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="350sp"
-        android:layout_marginTop="150sp"
+        android:layout_marginTop="180sp"
         android:layout_marginLeft="120sp"
+        android:background="@color/yellow"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress" />
@@ -32,8 +48,9 @@
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="200sp"
+        android:layout_marginTop="230sp"
         android:layout_marginLeft="120sp"
+        android:background="@color/yellow"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
@@ -43,27 +60,31 @@
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="140sp"
         android:layout_marginLeft="120sp"
         android:textAlignment="center"
-        android:text="LOG IN PAGE" />
+        android:textColor="@color/yellow"
+
+        android:text="LOG IN " />
 
     <TextView
         android:id="@+id/clktoreg"
-        android:layout_width="175sp"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
         android:layout_marginTop="350sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginLeft="100sp"
+        android:textColor="@color/yellow"
         android:text="Not a member? Click here to register" />
 
     <TextView
         android:id="@+id/forgotpwd"
-        android:layout_width="175sp"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
         android:layout_marginTop="400sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginLeft="100sp"
+        android:textColor="@color/yellow"
         android:text="Forgot password? click here to reset" />
 
 </RelativeLayout>

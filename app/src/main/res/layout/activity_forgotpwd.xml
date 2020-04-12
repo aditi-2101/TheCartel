@@ -4,25 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/star1bg"
     android:orientation="vertical"
     tools:context=".forgotpwd">
+
+    <TextView
+        android:id="@+id/splash"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="120sp"
+        android:text="@string/header_name"
+        android:textSize="30sp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"></TextView>
 
     <Button
         android:id="@+id/sendmail"
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="250sp"
+        android:layout_marginTop="355sp"
         android:layout_marginLeft="120sp"
         android:text="Send Email" />
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="175sp"
-        android:layout_height="wrap_content"
+        android:layout_width="375sp"
+        android:layout_height="50sp"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="200sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginTop="280sp"
+        android:layout_marginLeft="10sp"
+        android:background="@color/yellow"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress" />
@@ -30,8 +45,10 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginTop="100sp"
+        android:layout_height="100dp"
+        android:layout_marginTop="130sp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="@color/yellow"
         android:text="Please enter an email id. An email will be sent to that id to reset the password"
         android:textSize="20sp" />
 </RelativeLayout>
